@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Page de présentation de Dolly Makasi : médecine, analyse politique, sciences, entrepreneuriat et réflexion sur le développement.">
+<title>Dolly Makasi — Penser, analyser, contribuer</title>
+<style>
+:root { --navy:#122338; --gold:#c6a567; --ink:#182433; --muted:#637083; --paper:#f5f7fa; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; color:var(--ink); background:var(--paper); line-height:1.65; }
+header { background:var(--navy); color:#fff; padding:22px 7%; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; }
+.brand { font-weight:800; letter-spacing:.12em; }
+nav a { color:#e9edf3; text-decoration:none; margin:0 10px; font-size:.95rem; }
+nav a:hover { color:var(--gold); }
+.hero { padding:90px 7% 76px; background:linear-gradient(135deg,#122338,#263d57); color:white; }
+.kicker { color:var(--gold); text-transform:uppercase; letter-spacing:.15em; font-weight:700; font-size:.82rem; }
+h1 { font-size:clamp(2.4rem,6vw,4.6rem); line-height:1.1; margin:15px 0; }
+.hero p { max-width:700px; color:#dce4ed; font-size:1.15rem; }
+.tags { display:flex; flex-wrap:wrap; gap:10px; margin-top:25px; }
+.tags span { border:1px solid #65788f; padding:7px 12px; border-radius:30px; font-size:.9rem; }
+main { max-width:1050px; margin:auto; padding:48px 6%; }
+section { margin-bottom:46px; scroll-margin-top:20px; }
+h2 { font-size:1.8rem; margin-bottom:12px; }
+.rule { width:60px; height:3px; background:var(--gold); margin:14px 0 20px; }
+.cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; }
+.card { background:white; border:1px solid #e2e7ed; border-radius:14px; padding:22px; box-shadow:0 5px 20px rgba(18,35,56,.04); }
+.card h3 { margin-top:0; }
+.card p { color:var(--muted); margin-bottom:0; }
+footer { background:var(--navy); color:#dce4ed; text-align:center; padding:28px 7%; font-size:.9rem; }
+a.cta { display:inline-block; margin-top:22px; background:var(--gold); color:var(--navy); padding:12px 18px; border-radius:8px; font-weight:700; text-decoration:none; }
+@media(max-width:600px) { header { padding:18px 5%; } nav { width:100%; } nav a { margin:0 7px 0 0; } .hero { padding:65px 5%; } main { padding:36px 5%; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">DOLLY MAKASI</div>
+  <nav aria-label="Navigation">
+    <a href="#apropos">À propos</a><a href="#axes">Domaines</a><a href="#vision">Vision</a><a href="#projets">Projets</a>
+  </nav>
+</header>
+<section class="hero">
+  <div class="kicker">Profil & réflexions</div>
+  <h1>Penser.<br>Analyser.<br>Contribuer.</h1>
+  <p>Un parcours orienté vers la médecine, l'analyse politique, les sciences et l'entrepreneuriat, avec un intérêt pour le développement de la RDC et l'éveil intellectuel de la jeunesse.</p>
+  <div class="tags"><span>Médecine</span><span>Analyse politique</span><span>Entrepreneuriat</span><span>Sciences</span></div>
+  <a class="cta" href="#apropos">Découvrir mon profil</a>
+</section>
+<main>
+<section id="apropos">
+  <h2>À propos</h2><div class="rule"></div>
+  <p>Dolly Makasi est étudiant en médecine, analyste politique et entrepreneur. Il s'intéresse aux sciences, aux enjeux politiques, aux technologies et aux initiatives susceptibles de contribuer au progrès de la société.</p>
+  <p>Son parcours comprend également des formations en informatique. Il souhaite développer une approche multidisciplinaire et mettre ses idées, ses connaissances et son esprit d'initiative au service de projets constructifs.</p>
+</section>
+<section id="axes">
+  <h2>Domaines d'intérêt</h2><div class="rule"></div>
+  <div class="cards">
+    <article class="card"><h3>Médecine & sciences</h3><p>Apprentissage, curiosité scientifique et intérêt pour les contributions au domaine médical.</p></article>
+    <article class="card"><h3>Analyse politique</h3><p>Réflexion sur les enjeux politiques, sociaux et institutionnels, notamment en RDC.</p></article>
+    <article class="card"><h3>Entrepreneuriat</h3><p>Exploration d'idées, d'initiatives et de projets créateurs de valeur et d'opportunités.</p></article>
+    <article class="card"><h3>Informatique</h3><p>Formations et connaissances complémentaires dans le domaine informatique.</p></article>
+  </div>
+</section>
+<section id="vision">
+  <h2>Vision</h2><div class="rule"></div>
+  <p>Contribuer, à travers des idées, des initiatives et un engagement intellectuel, au développement de la République démocratique du Congo, au progrès scientifique et à l'éveil de la jeunesse.</p>
+</section>
+<section id="projets">
+  <h2>Projets & publications</h2><div class="rule"></div>
+  <p>Cette section pourra accueillir, au fil du temps, des projets, des articles, des analyses et des contributions. Seules les initiatives et publications effectivement réalisées seront présentées ici.</p>
+  <div class="card"><h3>À venir</h3><p>Cette rubrique sera mise à jour au fur et à mesure des projets et publications.</p></div>
+</section>
+</main>
+<footer>© Dolly Makasi — Page personnelle de présentation</footer>
+</body>
+</html>
